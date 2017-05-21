@@ -1,0 +1,19 @@
+This project uses a JDBC connection to insert data into the NeoNatal Database.
+
+The different organs of a baby which are taken into consideration in the NeoNatal database are:
+- Abdomen
+- Blood
+- BloodPressure
+- Brain
+- Cardiac
+- Eye
+- Head
+- Lungs
+- Skin
+- Urinrary
+
+This project inserts data into the tables.
+Random numbers are generated and INSERT queries are generated.
+
+On executing this program, data gets inserted into the above mentioned tables at regular intervals.
+Timer class is used to make this project like a cron job which inserts data at specific time intervals.

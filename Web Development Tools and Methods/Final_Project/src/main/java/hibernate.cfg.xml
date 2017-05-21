@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-configuration PUBLIC "-//Hibernate/Hibernate Configuration DTD 3.0//EN"
+                                         "http://hibernate.sourceforge.net/hibernate-configuration-3.0.dtd">
+<hibernate-configuration>
+	<session-factory>
+		<property name="hibernate.connection.driver_class">com.mysql.jdbc.Driver</property>
+		<property name="hibernate.connection.url">jdbc:mysql://localhost:3306/CMS2</property>
+		<property name="hibernate.connection.username">admin</property>
+		<property name="hibernate.connection.password">password</property>
+
+		<property name="hibernate.hbm2ddl.auto">update</property>
+		<property name="hibernate.dialect">org.hibernate.dialect.MySQLDialect</property>
+		<property name="hibernate.show_sql">true</property>
+
+		<mapping class="com.webtools.cms.pojo.Application" />
+		<mapping class="com.webtools.cms.pojo.Article" />
+		<mapping class="com.webtools.cms.pojo.Aside" />
+		<mapping class="com.webtools.cms.pojo.Footer" />
+		<mapping class="com.webtools.cms.pojo.Header" />
+		<mapping class="com.webtools.cms.pojo.Navigator" />
+		<mapping class="com.webtools.cms.pojo.Page" />
+		<mapping class="com.webtools.cms.pojo.ProductCatalog" />
+		<mapping class="com.webtools.cms.pojo.Product" />
+		<mapping class="com.webtools.cms.pojo.Category" />
+		<mapping class="com.webtools.cms.pojo.Section" />
+		<mapping class="com.webtools.cms.pojo.User" />
+
+	</session-factory>
+</hibernate-configuration>

@@ -1,0 +1,56 @@
+#d1
+{
+	width:100%;
+}
+
+#div1
+{
+	float:left;
+	width:40%;
+	border-width: 2px
+}
+
+#div2
+{
+	float:right;
+	width:40%;
+	border-width: 2px
+}
+
+#div3
+{
+	float:left;
+	width:40%;
+	border-width: 2px
+}
+
+#div4
+{
+	float:right;
+	width:40%;
+	border-width: 2px
+}
+
+#div5
+{
+	float:left;
+	width:40%;
+	border-width: 2px
+}
+
+#div6
+{
+	float:right;
+	width:40%;
+	border-width: 2px
+}
+
+p.one
+{
+	background-color: grey;
+}
+
+.middle
+{
+	border:1px solid black;
+}
